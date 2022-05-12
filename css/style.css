@@ -1,0 +1,130 @@
+/* line 5, ../../../../Ruby31/lib/ruby/gems/3.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../Ruby31/lib/ruby/gems/3.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../Ruby31/lib/ruby/gems/3.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../Ruby31/lib/ruby/gems/3.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../Ruby31/lib/ruby/gems/3.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../Ruby31/lib/ruby/gems/3.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../Ruby31/lib/ruby/gems/3.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../Ruby31/lib/ruby/gems/3.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../Ruby31/lib/ruby/gems/3.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 8, ../sass/style.scss */
+.inlBl {
+  display: inline-block;
+  font-size: 18px;
+}
+
+/* line 13, ../sass/style.scss */
+.main {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* line 18, ../sass/style.scss */
+div div {
+  outline: 2px dotted yellow;
+}
+/* line 21, ../sass/style.scss */
+div a {
+  font-size: 25px;
+}
+
+/* line 27, ../sass/style.scss */
+.first, .third, .fifth {
+  background: #add8e6;
+}
+
+/* line 30, ../sass/style.scss */
+.second, .fourth {
+  background: #0000ff;
+}
+
+/* line 33, ../sass/style.scss */
+.tbl {
+  display: table-cell;
+}
+
+/* line 36, ../sass/style.scss */
+.wdtFour {
+  width: 400px;
+}
+
+/* line 39, ../sass/style.scss */
+.wdtSix {
+  width: 600px;
+}
+
+/* line 42, ../sass/style.scss */
+.wdt {
+  width: 800px;
+}
+
+/* line 45, ../sass/style.scss */
+.fsZero {
+  font-size: 0;
+}
+
+/* line 51, ../sass/style.scss */
+.flt {
+  float: left;
+}
+
+/* line 54, ../sass/style.scss */
+.clr {
+  clear: both;
+}

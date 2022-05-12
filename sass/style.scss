@@ -1,0 +1,56 @@
+@import "compass/reset";
+
+
+$firstColor: #add8e6;
+$secondColor: #0000ff;
+$width: 200px;
+
+%disInline{
+    display: inline-block;
+    font-size: 18px;
+}
+
+.main{
+    width: 1200px;
+    margin: 0 auto;
+}
+div{
+    div{
+        outline: 2px dotted yellow;
+    }
+    a{
+       font:{
+           size: 25px;
+       }
+    }
+}
+.first,.third,.fifth{
+    background: $firstColor;
+}
+.second,.fourth{
+    background: $secondColor;
+}
+.tbl{
+    display: table-cell;
+}
+.wdtFour{
+    width: $width*2;
+}
+.wdtSix{
+    width: $width*3;
+}
+.wdt{
+    width: $width*4;
+}
+.fsZero{
+    font-size: 0;
+}
+.inlBl{
+    @extend %disInline;
+}
+.flt{
+    float: left;
+}
+.clr{
+    clear: both;
+}
