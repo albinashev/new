@@ -59,6 +59,14 @@ div{
 .flt{
     float: left;
 }
+.fltRight{
+    float: right;
+}
 .clr{
     clear: both;
+}
+.fifth{
+    p+p{
+       text-align: right;
+    }
 }

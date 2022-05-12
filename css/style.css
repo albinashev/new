@@ -133,6 +133,16 @@ div a {
 }
 
 /* line 62, ../sass/style.scss */
+.fltRight {
+  float: right;
+}
+
+/* line 65, ../sass/style.scss */
 .clr {
   clear: both;
+}
+
+/* line 69, ../sass/style.scss */
+.fifth p + p {
+  text-align: right;
 }
